@@ -7,36 +7,27 @@
 
 ## Install
 
-This repository is distributed with [npm][npm]. After [installing npm][install-npm], you can install `octicons` with this command.
-
-```
-$ npm install --save octicons
-```
-
-
-This repository contains the syntax highlighting theme used on github.com and
-gist.github.com. It is made available as a CSS stylesheet,
-[Ace](http://ace.c9.io) stylesheet, Atom theme, and TextMate bundle.
-
-## Installing
+All of the built themes in this package are distributed at separate repositories. It's recommended that you install one of these if you're looking for a specific theme.
 
 ### CSS
+- [github-syntax-light]()
+- [github-syntax-dark]()
 
-The `.css` files can be used directly in a website.
+### Ace
+- [github-ace-light]()
+- [github-ace-dark]()
 
 ### Atom
-
-    $ ln -s $(pwd)/atom/github-light ~/.atom/themes/github-light
+- [github-light-syntax]()
+- [github-dark-syntax]()
 
 ### TextMate
+- [github-textmate-light]()
+- [github-textmate-dark]()
 
-Double-click the `.tmbundle` file.
 
 ## Development
 
-    $ script/bootstrap
-    $ script/generate
+## License
 
-`script/generate` takes the theme definition in the JSON file and converts it
-to the various output formats. Don't modify the generated files directly;
-instead, modify the JSON file and run `script/generate` again.
+[MIT](./LICENSE) &copy; [GitHub](https://github.com/)

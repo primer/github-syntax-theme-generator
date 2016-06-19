@@ -16,7 +16,9 @@
     "url": "https://github.com/primer/github-syntax-theme-generator/issues"
   },
   "scripts": {
+    "setup": "if [ ! -d \"node_modules\" ]; then npm install; fi",
     "build": "node index.js",
+    "prepublish": "npm run setup && npm run build",
     "test": ""
   },
   "devDependencies": {
