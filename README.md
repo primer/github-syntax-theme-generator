@@ -27,8 +27,8 @@ The [Ace][ace] syntax theme is generated using a built in tool by Ace to convert
 
 The [Atom][atom] theme is built by `apm` converted from the [TextMate][tm] theme.
 
-- [github-light-syntax]()
-- [github-dark-syntax]()
+- [github-atom-light-syntax]()
+- [github-atom-dark-syntax]()
 
 ### [TextMate][tm]
 

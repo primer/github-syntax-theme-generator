@@ -8,6 +8,6 @@ _.map({
   }, (name, variation) => {
   Object.keys(adapters).map( k => {
     const adapter = adapters[k]
-    adapter.call(this, theme, variation, name)
+    adapter.call(this, JSON.parse(JSON.stringify(theme)), variation, name)
   })
 })
