@@ -10,18 +10,28 @@
 All of the built themes in this package are distributed at separate repositories. It's recommended that you install one of these if you're looking for a specific theme.
 
 ### CSS
+
+The CSS syntax theme is based on a custom syntax highlighter in use by GitHub. The prefixes to the classes are `.pl-` for Prettylights.
+
 - [github-syntax-light]()
 - [github-syntax-dark]()
 
-### Ace
+### [Ace][ace]
+
+The [Ace][ace] syntax theme is generated using a built in tool by Ace to convert [TextMate][tm] themes to Ace themes.
+
 - [github-ace-light]()
 - [github-ace-dark]()
 
-### Atom
+### [Atom][atom]
+
+The [Atom][atom] theme is built by `apm` converted from the [TextMate][tm] theme.
+
 - [github-light-syntax]()
 - [github-dark-syntax]()
 
-### TextMate
+### [TextMate][tm]
+
 - [github-textmate-light]()
 - [github-textmate-dark]()
 
@@ -47,3 +57,7 @@ If you would like to see the theme compiled for another platform, we welcome pul
 ## License
 
 [MIT](./LICENSE) &copy; [GitHub](https://github.com/)
+
+[ace]: https://github.com/ajaxorg/ace
+[tm]: https://github.com/textmate/textmate
+[atom]: https://atom.io/
