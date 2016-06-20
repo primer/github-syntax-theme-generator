@@ -13,27 +13,26 @@ All of the built themes in this package are distributed at separate repositories
 
 The CSS syntax theme is based on a custom syntax highlighter in use by GitHub. The prefixes to the classes are `.pl-` for Prettylights.
 
-- [github-syntax-light]()
-- [github-syntax-dark]()
+- [github-syntax-light](https://github.com/primer/github-syntax-light)
+- [github-syntax-dark](https://github.com/primer/github-syntax-dark)
 
 ### [Ace][ace]
 
 The [Ace][ace] syntax theme is generated using a built in tool by Ace to convert [TextMate][tm] themes to Ace themes.
 
-- [github-ace-light]()
-- [github-ace-dark]()
+- [github-ace-light](https://github.com/primer/github-ace-light)
+- [github-ace-dark](https://github.com/primer/github-ace-dark)
 
 ### [Atom][atom]
 
 The [Atom][atom] theme is built by `apm` converted from the [TextMate][tm] theme.
 
-- [github-atom-light-syntax]()
-- [github-atom-dark-syntax]()
+- [github-atom-light-syntax](https://github.com/primer/github-atom-light-syntax)
+- [github-atom-dark-syntax]()https://github.com/primer/github-atom-dark-syntax
 
 ### [TextMate][tm]
 
-- [github-textmate-light]()
-- [github-textmate-dark]()
+For [TextMate][tm] or any other TextMate compatible editors, you can use the [github-textmate-theme](https://github.com/primer/github-textmate-theme).
 
 
 ## Development
