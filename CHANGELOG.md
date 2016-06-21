@@ -1,5 +1,6 @@
-# HEAD
+# 0.1.2
 
+- Fixing: Ace adapter would error if build didn't exist yet.
 - Fixing: The dark mode lineHighlight and text selection wasn't optimized.
 
 # 0.1.1
