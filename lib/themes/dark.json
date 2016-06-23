@@ -1,0 +1,291 @@
+{
+  "author" : "GitHub",
+  "settings" : [
+    {
+      "settings" : {
+        "background" : "#20272b",
+        "foreground" : "#ddd",
+        "lineHighlight": "#464a4d",
+        "invisibles" : "#6e7880",
+        "selection": "#832563",
+        "caret": "#fff"
+      }
+    },
+    {
+      "scope" : "comment",
+      "settings" : {
+        "foreground" : "#969896"
+      },
+      "name" : "Comment"
+    },
+    {
+      "scope" : "constant, variable.other.constant",
+      "settings" : {
+        "foreground" : "#0099cd"
+      },
+      "name" : "Constant"
+    },
+    {
+      "scope" : "keyword.operator.symbole, keyword.other.mark",
+      "name": "Clojure workaround; don't highlight these separately from their enclosing scope",
+      "settings": {}
+    },
+    {
+      "scope" : "entity, entity.name",
+      "settings" : {
+        "fontStyle" : "",
+        "foreground" : "#9774cb"
+      },
+      "name" : "Entity"
+    },
+    {
+      "scope": "variable.parameter.function",
+      "settings" : {
+        "foreground" : "#ddd"
+      }
+    },
+    {
+      "scope": "entity.name.tag",
+      "settings" : {
+        "fontStyle" : "",
+        "foreground" : "#7bcc72"
+      }
+    },
+    {
+      "scope" : "keyword",
+      "settings" : {
+        "fontStyle" : "",
+        "foreground" : "#cc2372"
+      },
+      "name" : "Keyword"
+    },
+    {
+      "scope" : "storage, storage.type",
+      "settings" : {
+        "foreground" : "#cc2372"
+      },
+      "name" : "Storage"
+    },
+    {
+      "scope": "storage.modifier.package, storage.modifier.import, storage.type.java",
+      "settings" : {
+        "foreground" : "#ddd"
+      }
+    },
+    {
+      "scope" : "string, punctuation.definition.string, string punctuation.section.embedded source",
+      "settings" : {
+        "fontStyle" : "",
+        "foreground" : "#3c66e2"
+      },
+      "name" : "String"
+    },
+    {
+      "name": "Ada workaround; don't highlight imports as strings",
+      "scope": "string.unquoted.import.ada",
+      "settings": {}
+    },
+    {
+      "scope" : "support",
+      "settings" : {
+        "fontStyle" : "",
+        "foreground" : "#0099cd"
+      },
+      "name" : "Support"
+    },
+    {
+      "scope": "meta.property-name",
+      "settings" : {
+        "fontStyle" : "",
+        "foreground" : "#0099cd"
+      }
+    },
+    {
+      "scope" : "variable",
+      "settings" : {
+        "fontStyle" : "",
+        "foreground" : "#fb8764"
+      },
+      "name" : "Variable"
+    },
+    {
+      "scope": "variable.other",
+      "settings" : {
+        "foreground" : "#ddd"
+      }
+    },
+    {
+      "scope" : "invalid.deprecated",
+      "settings" : {
+        "fontStyle" : "bold italic underline",
+        "foreground" : "#e63525"
+      },
+      "name" : "Invalid – Deprecated"
+    },
+    {
+      "scope" : "invalid.illegal",
+      "settings" : {
+        "fontStyle" : "italic underline",
+        "foreground" : "#f8f8f8",
+        "background" : "#e63525"
+      },
+      "name" : "Invalid – Illegal"
+    },
+    {
+      "scope" : "string source",
+      "settings" : {
+        "fontStyle" : "",
+        "foreground" : "#ddd"
+      },
+      "name" : "String embedded-source"
+    },
+    {
+      "scope" : "string variable",
+      "settings" : {
+        "fontStyle" : "",
+        "foreground" : "#0099cd"
+      },
+      "name" : "String variable"
+    },
+    {
+      "scope" : "string.regexp",
+      "settings" : {
+        "fontStyle" : "",
+        "foreground" : "#3c66e2"
+      },
+      "name" : "String.regexp"
+    },
+    {
+      "scope" : "string.regexp.character-class, string.regexp constant.character.escape, string.regexp source.ruby.embedded, string.regexp string.regexp.arbitrary-repitition",
+      "settings" : {
+        "foreground" : "#3c66e2"
+      },
+      "name" : "String.regexp.«special»"
+    },
+    {
+      "scope" : "string.regexp constant.character.escape",
+      "settings" : {
+        "fontStyle" : "bold",
+        "foreground" : "#7bcc72"
+      },
+      "name" : "String.regexp constant.character.escape"
+    },
+    {
+      "scope" : "support.constant",
+      "settings" : {
+        "fontStyle" : "",
+        "foreground" : "#0099cd"
+      },
+      "name" : "Support.constant"
+    },
+    {
+      "scope" : "support.variable",
+      "settings" : {
+        "foreground" : "#0099cd"
+      },
+      "name" : "Support.variable"
+    },
+    {
+      "scope": "meta.module-reference",
+      "settings" : {
+        "foreground" : "#0099cd"
+      },
+      "name": "meta module-reference"
+    },
+    {
+      "scope" : "markup.list",
+      "settings" : {
+        "foreground" : "#c26b2b"
+      },
+      "name" : "Markup.list"
+    },
+    {
+      "scope" : "markup.heading, markup.heading entity.name",
+      "settings" : {
+        "fontStyle" : "bold",
+        "foreground" : "#264ec5"
+      },
+      "name" : "Markup.heading"
+    },
+    {
+      "scope" : "markup.quote",
+      "settings" : {
+        "foreground" : "#00acac"
+      },
+      "name" : "Markup.quote"
+    },
+    {
+      "scope" : "markup.italic",
+      "settings" : {
+        "fontStyle" : "italic",
+        "foreground" : "#ddd"
+      },
+      "name" : "Markup.italic"
+    },
+    {
+      "scope" : "markup.bold",
+      "settings" : {
+        "fontStyle" : "bold",
+        "foreground" : "#ddd"
+      },
+      "name" : "Markup.bold"
+    },
+    {
+      "scope" : "markup.raw",
+      "settings" : {
+        "fontStyle" : "",
+        "foreground" : "#0099cd"
+      },
+      "name" : "Markup.raw"
+    },
+    {
+      "scope" : "markup.deleted, meta.diff.header.from-file",
+      "settings" : {
+        "background": "#ffecec",
+        "foreground" : "#bd2c00"
+      },
+      "name" : "Markup.deleted"
+    },
+    {
+      "scope": "markup.inserted, meta.diff.header.to-file",
+      "settings" : {
+        "background": "#eaffea",
+        "foreground" : "#55a532"
+      },
+      "name" : "Markup.inserted"
+    },
+    {
+      "scope": "meta.diff.range",
+      "settings" : {
+        "fontStyle": "bold",
+        "foreground" : "#9774cb"
+      }
+    },
+    {
+      "scope": "meta.diff.header",
+      "settings" : {
+        "foreground" : "#0099cd"
+      }
+    },
+    {
+      "scope" : "meta.separator",
+      "settings" : {
+        "fontStyle" : "bold",
+        "foreground": "#264ec5"
+      },
+      "name" : "Meta.separator"
+    },
+    {
+      "name": "Output",
+      "scope": "meta.output",
+      "settings" : {
+        "foreground": "#264ec5"
+      }
+    }
+  ],
+  "comment" : "GitHub Dark syntax theme",
+  "name" : "GitHub Dark",
+  "semanticClass" : "theme.dark.github",
+  "filename": "github-dark",
+  "uuid": "C8E24EAE-6212-41E3-AC1A-F49362B6150D"
+}

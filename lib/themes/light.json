@@ -1,4 +1,4 @@
-module.exports = {
+{
   "author" : "GitHub",
   "settings" : [
     {
@@ -9,14 +9,6 @@ module.exports = {
         "foreground" : "#333",
         "invisibles" : "#c0c0c0",
         "caret" : "#000"
-      },
-      "settings-dark" : {
-        "background" : "#20272b",
-        "foreground" : "#ddd",
-        "lineHighlight": "#464a4d",
-        "invisibles" : "#6e7880",
-        "selection": "#832563",
-        "caret": "#fff"
       }
     },
     {
@@ -31,9 +23,6 @@ module.exports = {
       "settings" : {
         "foreground" : "#0086b3"
       },
-      "settings-dark" : {
-        "foreground" : "#0099cd"
-      },
       "name" : "Constant"
     },
     {
@@ -47,18 +36,12 @@ module.exports = {
         "fontStyle" : "",
         "foreground" : "#795da3"
       },
-      "settings-dark" : {
-        "foreground" : "#9774cb"
-      },
       "name" : "Entity"
     },
     {
       "scope": "variable.parameter.function",
       "settings" : {
         "foreground" : "#333"
-      },
-      "settings-dark" : {
-        "foreground" : "#ddd"
       }
     },
     {
@@ -66,9 +49,6 @@ module.exports = {
       "settings" : {
         "fontStyle" : "",
         "foreground" : "#63a35c"
-      },
-      "settings-dark" : {
-        "foreground" : "#7bcc72"
       }
     },
     {
@@ -77,9 +57,6 @@ module.exports = {
         "fontStyle" : "",
         "foreground" : "#a71d5d"
       },
-      "settings-dark" : {
-        "foreground" : "#cc2372"
-      },
       "name" : "Keyword"
     },
     {
@@ -87,18 +64,12 @@ module.exports = {
       "settings" : {
         "foreground" : "#a71d5d"
       },
-      "settings-dark" : {
-        "foreground" : "#cc2372"
-      },
       "name" : "Storage"
     },
     {
       "scope": "storage.modifier.package, storage.modifier.import, storage.type.java",
       "settings": {
         "foreground": "#333"
-      },
-      "settings-dark" : {
-        "foreground" : "#ddd"
       }
     },
     {
@@ -106,9 +77,6 @@ module.exports = {
       "settings" : {
         "fontStyle" : "",
         "foreground" : "#183691"
-      },
-      "settings-dark" : {
-        "foreground" : "#3c66e2"
       },
       "name" : "String"
     },
@@ -123,9 +91,6 @@ module.exports = {
         "fontStyle" : "",
         "foreground" : "#0086b3"
       },
-      "settings-dark" : {
-        "foreground" : "#0099cd"
-      },
       "name" : "Support"
     },
     {
@@ -133,9 +98,6 @@ module.exports = {
       "settings" : {
         "fontStyle" : "",
         "foreground" : "#0086b3"
-      },
-      "settings-dark" : {
-        "foreground" : "#0099cd"
       }
     },
     {
@@ -144,18 +106,12 @@ module.exports = {
         "fontStyle" : "",
         "foreground" : "#ed6a43"
       },
-      "settings-dark" : {
-        "foreground" : "#fb8764"
-      },
       "name" : "Variable"
     },
     {
       "scope": "variable.other",
       "settings": {
         "foreground": "#333"
-      },
-      "settings-dark" : {
-        "foreground" : "#ddd"
       }
     },
     {
@@ -163,9 +119,6 @@ module.exports = {
       "settings" : {
         "fontStyle" : "bold italic underline",
         "foreground" : "#b52a1d"
-      },
-      "settings-dark" : {
-        "foreground" : "#e63525"
       },
       "name" : "Invalid – Deprecated"
     },
@@ -176,9 +129,6 @@ module.exports = {
         "background" : "#b52a1d",
         "foreground" : "#f8f8f8"
       },
-      "settings-dark" : {
-        "background" : "#e63525"
-      },
       "name" : "Invalid – Illegal"
     },
     {
@@ -186,9 +136,6 @@ module.exports = {
       "settings" : {
         "fontStyle" : "",
         "foreground" : "#333"
-      },
-      "settings-dark" : {
-        "foreground" : "#ddd"
       },
       "name" : "String embedded-source"
     },
@@ -198,9 +145,6 @@ module.exports = {
         "fontStyle" : "",
         "foreground" : "#0086b3"
       },
-      "settings-dark" : {
-        "foreground" : "#0099cd"
-      },
       "name" : "String variable"
     },
     {
@@ -209,18 +153,12 @@ module.exports = {
         "fontStyle" : "",
         "foreground" : "#183691"
       },
-      "settings-dark" : {
-        "foreground" : "#3c66e2"
-      },
       "name" : "String.regexp"
     },
     {
       "scope" : "string.regexp.character-class, string.regexp constant.character.escape, string.regexp source.ruby.embedded, string.regexp string.regexp.arbitrary-repitition",
       "settings" : {
         "foreground" : "#183691"
-      },
-      "settings-dark" : {
-        "foreground" : "#3c66e2"
       },
       "name" : "String.regexp.«special»"
     },
@@ -230,9 +168,6 @@ module.exports = {
         "fontStyle" : "bold",
         "foreground" : "#63a35c"
       },
-      "settings-dark" : {
-        "foreground" : "#7bcc72"
-      },
       "name" : "String.regexp constant.character.escape"
     },
     {
@@ -241,18 +176,12 @@ module.exports = {
         "fontStyle" : "",
         "foreground" : "#0086b3"
       },
-      "settings-dark" : {
-        "foreground" : "#0099cd"
-      },
       "name" : "Support.constant"
     },
     {
       "scope" : "support.variable",
       "settings" : {
         "foreground" : "#0086b3"
-      },
-      "settings-dark" : {
-        "foreground" : "#0099cd"
       },
       "name" : "Support.variable"
     },
@@ -261,18 +190,12 @@ module.exports = {
       "settings" : {
         "foreground" : "#0086b3"
       },
-      "settings-dark" : {
-        "foreground" : "#0099cd"
-      },
       "name": "meta module-reference"
     },
     {
       "scope" : "markup.list",
       "settings" : {
         "foreground" : "#693a17"
-      },
-      "settings-dark" : {
-        "foreground" : "#c26b2b"
       },
       "name" : "Markup.list"
     },
@@ -282,18 +205,12 @@ module.exports = {
         "fontStyle" : "bold",
         "foreground" : "#1d3e81"
       },
-      "settings-dark" : {
-        "foreground" : "#264ec5"
-      },
       "name" : "Markup.heading"
     },
     {
       "scope" : "markup.quote",
       "settings" : {
         "foreground" : "#008080"
-      },
-      "settings-dark" : {
-        "foreground" : "#00acac"
       },
       "name" : "Markup.quote"
     },
@@ -303,9 +220,6 @@ module.exports = {
         "fontStyle" : "italic",
         "foreground" : "#333"
       },
-      "settings-dark" : {
-        "foreground" : "#ddd"
-      },
       "name" : "Markup.italic"
     },
     {
@@ -314,9 +228,6 @@ module.exports = {
         "fontStyle" : "bold",
         "foreground" : "#333"
       },
-      "settings-dark" : {
-        "foreground" : "#ddd"
-      },
       "name" : "Markup.bold"
     },
     {
@@ -324,9 +235,6 @@ module.exports = {
       "settings" : {
         "fontStyle" : "",
         "foreground" : "#0086b3"
-      },
-      "settings-dark" : {
-        "foreground" : "#0099cd"
       },
       "name" : "Markup.raw"
     },
@@ -351,18 +259,12 @@ module.exports = {
       "settings" : {
         "foreground" : "#795da3",
         "fontStyle": "bold"
-      },
-      "settings-dark" : {
-        "foreground" : "#9774cb"
       }
     },
     {
       "scope": "meta.diff.header",
       "settings" : {
         "foreground" : "#0086b3"
-      },
-      "settings-dark" : {
-        "foreground" : "#0099cd"
       }
     },
     {
@@ -371,9 +273,6 @@ module.exports = {
         "fontStyle" : "bold",
         "foreground" : "#1d3e81"
       },
-      "settings-dark" : {
-        "foreground": "#264ec5"
-      },
       "name" : "Meta.separator"
     },
     {
@@ -381,14 +280,12 @@ module.exports = {
       "scope": "meta.output",
       "settings": {
         "foreground": "#1d3e81"
-      },
-      "settings-dark" : {
-        "foreground": "#264ec5"
       }
     }
   ],
   "comment" : "GitHub Light syntax theme",
   "name" : "GitHub Light",
   "semanticClass" : "theme.light.github",
+  "filename": "github-light",
   "uuid": "A1C4DFA0-7031-11E4-9803-0800200C9A66"
 }

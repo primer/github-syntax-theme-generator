@@ -43,7 +43,7 @@ Clone this repository and after `npm install`. Run
 $ npm run build
 ```
 
-This will run the script that will build all the themes.
+This will run the script that will build all the themes. The themes are built from the `json` files in the `lib/themes` folder.
 
 ## Adapters
 
