@@ -18,7 +18,7 @@
   "scripts": {
     "build": "node index.js",
     "ava": "ava --verbose --fail-fast \"test/**/*.js\"",
-    "test": "npm run build && npm run ava"
+    "test": "npm run ava"
   },
   "devDependencies": {
     "ace": "git+https://github.com/ajaxorg/ace.git",
