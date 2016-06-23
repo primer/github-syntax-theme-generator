@@ -1,5 +1,7 @@
 # HEAD
 
+- Separating the themes (dark, light) into separate json objects.
+
 # 0.1.2
 
 - Fixing: Ace adapter would error if build didn't exist yet.

@@ -2,11 +2,7 @@ language: node_js
 node_js:
   - '4.4'
 
-deploy:
-  provider: npm
-  email: ${NPM_EMAIL}
-  api_key: ${NPM_API_KEY}
-  skip_cleanup: true
-  on:
-    branch: master
-    repo: ${TRAVIS_REPO_SLUG}
+# Because installing atom-package-manager is not working on travis, just using
+# the install script to install just the test dependencies
+install:
+  - npm install ava
