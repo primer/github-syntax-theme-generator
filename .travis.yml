@@ -6,3 +6,4 @@ node_js:
 # the install script to install just the test dependencies
 install:
   - npm install ava
+  - npm install colorable
