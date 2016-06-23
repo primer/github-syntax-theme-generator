@@ -19,11 +19,13 @@
     "setup": "if [ ! -d \"node_modules\" ]; then npm install; fi",
     "build": "node index.js",
     "prepublish": "npm run setup && npm run build",
-    "test": ""
+    "ava": "ava --verbose --fail-fast \"test/**/*.js\"",
+    "test": "npm run build && npm run ava"
   },
   "devDependencies": {
     "ace": "git+https://github.com/ajaxorg/ace.git",
     "atom-package-manager": "^1.0.0",
+    "ava": "^0.15.2",
     "css-parse": "2.0.0",
     "css-stringify": "2.0.0",
     "lodash": "^4.13.1",
