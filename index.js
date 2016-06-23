@@ -1,13 +1,10 @@
-const theme    = require("./lib/theme")
+const themes   = require("./lib/themes")
 const adapters = require("./lib/adapters")
 const _        = require("lodash")
 
-_.map({
-    "light": "GitHub Light",
-    "dark": "GitHub Dark"
-  }, (name, variation) => {
+themes.map(theme => {
   Object.keys(adapters).map( k => {
     const adapter = adapters[k]
-    adapter.call(this, JSON.parse(JSON.stringify(theme)), variation, name)
+    adapter.call(this, theme)
   })
 })
