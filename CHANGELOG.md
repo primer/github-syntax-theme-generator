@@ -1,5 +1,6 @@
 # HEAD
 
+- Accessibility contrast tests
 - Separating the themes (dark, light) into separate json objects.
 
 # 0.1.2
