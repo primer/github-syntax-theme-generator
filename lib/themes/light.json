@@ -8,7 +8,10 @@
         "background" : "#fff",
         "foreground" : "#333",
         "invisibles" : "#c0c0c0",
-        "caret" : "#000"
+        "caret" : "#000",
+        "diffDeleted": "#ffecec",
+        "diffAdded": "#eaffea",
+        "markdown": "#f7f7f7"
       }
     },
     {
