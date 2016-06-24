@@ -2,6 +2,7 @@
 
 - Accessibility contrast tests
 - Separating the themes (dark, light) into separate json objects.
+- Update themes to be more compatible with SublimeText
 
 # 0.1.2
 
