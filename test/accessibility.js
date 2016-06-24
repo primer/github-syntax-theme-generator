@@ -3,8 +3,8 @@ import colorable from "colorable"
 import themes from "../lib/themes"
 
 
-var foregrounds = ["foreground", "caret", "invisibles"]
-
+var foregrounds = ["foreground", "caret", "invisibles", "findHighlightForeground", "highlightForeground", "bracketContentsForeground", "bracketsForeground", "gutterForeground"]
+var ignore = ["selectionBorder", "guide", "activeGuide", "stackGuide"]
 
 function colorTest(background, foreground, message) {
   // Calculate contrast
@@ -35,6 +35,10 @@ themes.forEach(theme => {
     return !setting.scope
   }).pop()
 
+  ignore.forEach(i =>  {
+    delete bgColors.settings[i]
+  })
+
   var themeForegrounds = foregrounds.map(foreground => {
     return {
       "scope": foreground,
@@ -56,16 +60,19 @@ themes.forEach(theme => {
       if (setting.settings.background) {
         // check against it's own background color
         colorTest(setting.settings.background, foreground, theme.name + ": " + setting.scope + " (" + foreground + ") on " + setting.settings.background + " background")
-      } else {
-        // For each background color
-        Object.keys(bgColors.settings).forEach( bg => {
-          if(foregrounds.indexOf(bg) == -1) {
-            // Get the background color
-            var background = bgColors.settings[bg]
+        foreground = setting.settings.background
+      }
+
+      // For each background color
+      Object.keys(bgColors.settings).forEach( bg => {
+        if(foregrounds.indexOf(bg) == -1) {
+          // Get the background color
+          var background = bgColors.settings[bg]
+          if (background.indexOf("#") == 0) {
             colorTest(background, foreground, theme.name + ": " + setting.scope + " (" + foreground + ") on " + bg + " (" + background + ") background")
           }
-        })
-      }
+        }
+      })
     }
   })
 })
