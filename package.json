@@ -28,6 +28,8 @@
     "colorable": "^1.0.5",
     "css-parse": "2.0.0",
     "css-stringify": "2.0.0",
+    "eslint": "^3.0.0",
+    "eslint-plugin-github": "^0.4.0",
     "lodash": "^4.13.1",
     "mkdirp": "^0.5.1",
     "plist": "^1.2.0"
