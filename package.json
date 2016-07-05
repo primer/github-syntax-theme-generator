@@ -19,6 +19,7 @@
     "build": "node index.js",
     "prepublish": "npm run build",
     "ava": "ava --verbose --fail-fast \"test/**/*.js\"",
+    "lint": "eslint *.js",
     "test": "npm run ava"
   },
   "devDependencies": {

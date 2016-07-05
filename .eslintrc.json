@@ -1,5 +1,8 @@
 {
-  "extends": [
+  "plugins": [
     "eslint-plugin-github"
+  ],
+  "extends": [
+    "plugin:github/recommended"
   ]
 }
