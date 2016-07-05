@@ -1,11 +1,11 @@
-import test from "ava"
-import header from "../../lib/utils/"
-import themes from "../../lib/themes"
-import pkg from "../../package.json"
+const test = require("ava")
+const header = require("../../lib/utils/")
+const themes = require("../../lib/themes")
+const pkg = require("../../package.json")
 
-var darkThemeHeader = null
+let darkThemeHeader = null
 
-test.before(t => {
+test.before(() => {
   darkThemeHeader = header.header(themes[0])
 })
 
