@@ -7,3 +7,6 @@ node_js:
 install:
   - npm install ava
   - npm install colorable
+  - npm install eslint
+  - npm install eslint-plugin-github
+  - npm install babel-eslint
