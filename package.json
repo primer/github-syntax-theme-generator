@@ -26,7 +26,6 @@
     "ace": "git+https://github.com/ajaxorg/ace.git",
     "atom-package-manager": "^1.0.0",
     "ava": "^0.15.2",
-    "babel-eslint": "^6.1.0",
     "colorable": "^1.0.5",
     "css-parse": "2.0.0",
     "css-stringify": "2.0.0",

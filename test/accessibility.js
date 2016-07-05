@@ -1,7 +1,6 @@
-import test from "ava"
-import colorable from "colorable"
-import themes from "../lib/themes"
-
+const test = require("ava")
+const colorable = require("colorable")
+const themes = require("../lib/themes")
 
 const foregrounds = ["foreground", "caret", "invisibles", "findHighlightForeground", "highlightForeground", "bracketContentsForeground", "bracketsForeground", "gutterForeground"]
 const ignore = ["selectionBorder", "guide", "activeGuide", "stackGuide"]
