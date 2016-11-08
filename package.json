@@ -24,7 +24,7 @@
   },
   "devDependencies": {
     "ace": "git+https://github.com/ajaxorg/ace.git",
-    "atom-package-manager": "^1.0.0",
+    "atom-package-manager": "^1.14.1",
     "ava": "^0.16.0",
     "colorable": "^1.0.5",
     "css-parse": "2.0.0",
