@@ -64,10 +64,10 @@ themes.forEach(theme => {
 
       // For each background color
       Object.keys(bgColors.settings).forEach(bg => {
-        if(foregrounds.indexOf(bg) == -1) {
+        if (foregrounds.indexOf(bg) === -1) {
           // Get the background color
           const background = bgColors.settings[bg]
-          if (background.indexOf("#") == 0) {
+          if (background.indexOf("#") === 0) {
             colorTest(background, foreground, theme.name + ": " + setting.scope + " (" + foreground + ") on " + bg + " (" + background + ") background")
           }
         }
