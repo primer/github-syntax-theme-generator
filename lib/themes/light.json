@@ -159,6 +159,16 @@
       "name": "Invalid – Illegal"
     },
     {
+      "scope": "carriage.return",
+      "settings": {
+        "fontStyle": "italic underline",
+        "background": "#b52a1d",
+        "foreground": "#f8f8f8",
+        "content": "^M"
+      },
+      "name": "Carriage Return"
+    },
+    {
       "scope": "invalid.unimplemented",
       "settings": {
         "fontStyle": "bold italic underline",
