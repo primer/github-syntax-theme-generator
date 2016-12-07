@@ -159,7 +159,7 @@
       "name": "Invalid – Illegal"
     },
     {
-      "scope": "carriage.return",
+      "scope": "carriage-return",
       "settings": {
         "fontStyle": "italic underline",
         "background": "#b52a1d",
