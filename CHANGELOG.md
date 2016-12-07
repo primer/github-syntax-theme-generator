@@ -1,3 +1,7 @@
+# 0.3.0
+
+- Adding carriage return content to output [#16](https://github.com/primer/github-syntax-theme-generator/pull/16)
+
 # 0.2.0
 
 - Accessibility contrast tests
