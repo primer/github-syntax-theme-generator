@@ -3,7 +3,7 @@ const colorable = require("colorable")
 const themes = require("../lib/themes")
 
 const foregrounds = ["foreground", "caret", "invisibles", "findHighlightForeground", "highlightForeground", "bracketContentsForeground", "bracketsForeground", "gutterForeground"]
-const ignore = ["selectionBorder", "guide", "activeGuide", "stackGuide"]
+const whitelist = ["background"]
 
 function colorTest(background, foreground, message) {
   // Calculate contrast
@@ -17,11 +17,11 @@ function colorTest(background, foreground, message) {
 
     // Test
     test(message, t => {
-      t.truthy(combinations.contrast > 1, "Contrast is lower than 1; " + combinations.contrast)
-      // t.truthy(accessibility.aa, "didn't pass aa critera. contrast: " + combinations.contrast )
-      // t.truthy(accessibility.aaLarge, "didn't pass aaLarge critera. contrast: " + combinations.contrast )
-      // t.truthy(accessibility.aaa, "didn't pass aaa critera. contrast: " + combinations.contrast )
-      // t.truthy(accessibility.aaaLarge, "didn't pass aaaLarge critera. contrast: " + combinations.contrast )
+      t.truthy(combinations.contrast > 2, "Contrast is lower than 2; " + combinations.contrast)
+      // t.truthy(accessibility.aa, "didn't pass aa critera. contrast: " + combinations.contrast)
+      // t.truthy(accessibility.aaLarge, "didn't pass aaLarge critera. contrast: " + combinations.contrast)
+      // t.truthy(accessibility.aaa, "didn't pass aaa critera. contrast: " + combinations.contrast)
+      // t.truthy(accessibility.aaaLarge, "didn't pass aaaLarge critera. contrast: " + combinations.contrast)
     })
   }
 }
@@ -34,8 +34,10 @@ themes.forEach(theme => {
     return !setting.scope
   }).pop()
 
-  ignore.forEach(i => {
-    delete bgColors.settings[i]
+  Object.keys(bgColors.settings).forEach(i => {
+    if (!whitelist.includes(i)) {
+      delete bgColors.settings[i]
+    }
   })
 
   const themeForegrounds = foregrounds.map(foreground => {
