@@ -9,6 +9,8 @@
         "foreground": "#333",
         "invisibles": "#c0c0c0",
         "caret": "#000",
+        "diffRenamed": "#f2f9fc",
+        "diffModified": "#fff9ea",
         "diffDeleted": "#ffecec",
         "diffAdded": "#eaffea",
         "markdown": "#f7f7f7",

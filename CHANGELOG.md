@@ -1,3 +1,7 @@
+# 0.3.2
+
+- Updating the atom script to not rely on the atom package manager converting a textmate theme.
+
 # 0.3.0
 
 - Adding carriage return content to output [#16](https://github.com/primer/github-syntax-theme-generator/pull/16)
