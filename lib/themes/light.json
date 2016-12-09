@@ -22,7 +22,7 @@
         "activeGuide": "#202327",
         "stackGuide": "#e1e7eb",
         "highlight": "#464a4d",
-        "popupCss": "<![CDATA[html { background-color: #e0e0e0; } h1, h2, h3, h4, h5, h6 { color: #556DA9; margin-top: 0.2em; margin-bottom: 0.2em; } h1 { font-size: 1.5em; } h2 { font-size: 1.4em; } h3 { font-size: 1.3em; } h4 { font-size: 1.2em; } h5 { font-size: 1.1em; } h6 { font-size: 1em; } blockquote { color: #46A283; display: block; font-style: italic; } pre { display: block; } a { color: #556DA9; font-style: underline; } body { color: #202327; background-color: #fff; margin: 1px; font-size: 1em; padding: 0.2em; } .danger { color: #B45854; } .important, .attention { color: #6B619F; } .caution, .warning { color: #DA874E; } .note { color: #47A6BA; }]]>",
+        "popupCss": "<![CDATA[html { background-color: #e0e0e0; } h1, h2, h3, h4, h5, h6 { color: #556DA9; margin-top: 0.2em; margin-bottom: 0.2em; } h1 { font-size: 1.5em; } h2 { font-size: 1.4em; } h3 { font-size: 1.3em; } h4 { font-size: 1.2em; } h5 { font-size: 1.1em; } h6 { font-size: 1em; } blockquote { color: #46A283; display: block; font-style: italic; } pre { display: block; } a { color: #556DA9; font-style: underline; } body { color: #202327; background-color: #fff; margin: 1px; font-size: 1em; padding: 0.2em; } .danger { color: #B45854; } .important, .attention { color: #7D4D7B; } .caution, .warning { color: #DA874E; } .note { color: #47A6BA; }]]>",
         "highlightForeground": "#464a4d",
         "tagsOptions": "underline",
         "bracketContentsOptions": "underline",
@@ -42,7 +42,7 @@
     {
       "scope": "constant, entity.name.constant, variable.other.constant, variable.language",
       "settings": {
-        "foreground": "#3C83BD"
+        "foreground": "#47A6BA"
       },
       "name": "Constant"
     },
@@ -55,7 +55,7 @@
       "scope": "entity, entity.name",
       "settings": {
         "fontStyle": "",
-        "foreground": "#6B619F"
+        "foreground": "#7D4D7B"
       },
       "name": "Entity"
     },
@@ -76,14 +76,14 @@
       "scope": "keyword",
       "settings": {
         "fontStyle": "",
-        "foreground": "#CD6180"
+        "foreground": "#A34B66"
       },
       "name": "Keyword"
     },
     {
       "scope": "storage, storage.type",
       "settings": {
-        "foreground": "#CD6180"
+        "foreground": "#A34B66"
       },
       "name": "Storage"
     },
@@ -110,7 +110,7 @@
       "scope": "support",
       "settings": {
         "fontStyle": "",
-        "foreground": "#3C83BD"
+        "foreground": "#47A6BA"
       },
       "name": "Support"
     },
@@ -118,7 +118,7 @@
       "scope": "meta.property-name",
       "settings": {
         "fontStyle": "",
-        "foreground": "#3C83BD"
+        "foreground": "#47A6BA"
       }
     },
     {
@@ -196,7 +196,7 @@
       "scope": "string variable",
       "settings": {
         "fontStyle": "",
-        "foreground": "#3C83BD"
+        "foreground": "#47A6BA"
       },
       "name": "String variable"
     },
@@ -227,21 +227,21 @@
       "scope": "support.constant",
       "settings": {
         "fontStyle": "",
-        "foreground": "#3C83BD"
+        "foreground": "#47A6BA"
       },
       "name": "Support.constant"
     },
     {
       "scope": "support.variable",
       "settings": {
-        "foreground": "#3C83BD"
+        "foreground": "#47A6BA"
       },
       "name": "Support.variable"
     },
     {
       "scope": "meta.module-reference",
       "settings": {
-        "foreground": "#3C83BD"
+        "foreground": "#47A6BA"
       },
       "name": "meta module-reference"
     },
@@ -287,7 +287,7 @@
       "scope": "markup.raw",
       "settings": {
         "fontStyle": "",
-        "foreground": "#3C83BD"
+        "foreground": "#47A6BA"
       },
       "name": "Markup.raw"
     },
@@ -324,14 +324,14 @@
     {
       "scope": "meta.diff.range",
       "settings": {
-        "foreground": "#6B619F",
+        "foreground": "#7D4D7B",
         "fontStyle": "bold"
       }
     },
     {
       "scope": "meta.diff.header",
       "settings": {
-        "foreground": "#3C83BD"
+        "foreground": "#47A6BA"
       }
     },
     {
