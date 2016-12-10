@@ -1,0 +1,57 @@
+@import "primer-support/index.scss";
+
+.cm-s-${theme} {
+
+  &.CodeMirror {
+    background: ${background};
+    color: ${foreground};
+  }
+
+  .CodeMirror-gutters {
+    background: ${background};
+    border-right-width: 0;
+  }
+
+  .CodeMirror-guttermarker {
+    color: white;
+  }
+
+  .CodeMirror-guttermarker-subtle {
+    color: #d0d0d0;
+  }
+
+  .CodeMirror-linenumber {
+    color: ${invisibles};
+    padding: 0 $spacer-3 0 $spacer-3;
+  }
+
+  .CodeMirror-cursor {
+    border-left: 1px solid ${foreground};
+  }
+
+  div.CodeMirror-selected,
+  .CodeMirror-line::selection,
+  .CodeMirror-line > span::selection,
+  .CodeMirror-line > span > span::selection,
+  .CodeMirror-line::-moz-selection,
+  .CodeMirror-line > span::-moz-selection,
+  .CodeMirror-line > span > span::-moz-selection {
+    background: ${selection};
+  }
+
+  .CodeMirror-activeline-background {
+    background: ${lineHighlight};
+  }
+
+  .CodeMirror-matchingbracket {
+    text-decoration: underline;
+    color: ${foreground} !important;
+  }
+
+  .CodeMirror-lines {
+    font-family: $mono-font;
+    font-size: $h6-size;
+    background: ${background};
+    line-height: 20px;
+  }
+}
