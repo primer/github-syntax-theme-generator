@@ -20,7 +20,7 @@
     "prepublish": "npm run build",
     "ava": "ava --verbose --fail-fast \"test/**/*.js\"",
     "lint": "eslint **/*.js",
-    "test": "npm run lint && npm run ava"
+    "test": "npm run lint && npm run build && npm run ava"
   },
   "devDependencies": {
     "ace": "git+https://github.com/ajaxorg/ace.git",
@@ -32,7 +32,9 @@
     "eslint-plugin-github": "^0.6.1",
     "lodash": "^4.16.6",
     "mkdirp": "^0.5.1",
-    "plist": "^2.0.1"
+    "node-sass": "^3.13.0",
+    "plist": "^2.0.1",
+    "primer-support": "^1.1.0"
   },
   "keywords": [
     "syntax",
