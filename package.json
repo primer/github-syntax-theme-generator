@@ -32,7 +32,7 @@
     "eslint-plugin-github": "^0.7.0",
     "lodash": "^4.16.6",
     "mkdirp": "^0.5.1",
-    "node-sass": "^3.13.0",
+    "node-sass": "^4.2.0",
     "plist": "^2.0.1",
     "primer-support": "^1.1.0"
   },
