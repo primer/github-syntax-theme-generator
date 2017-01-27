@@ -22,7 +22,7 @@ test("the current package version", t => {
 })
 
 test("correct year", t => {
-  t.regex(darkThemeHeader, /2016/)
+  t.regex(darkThemeHeader, /2017/)
 })
 
 test("package author", t => {
