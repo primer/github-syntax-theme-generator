@@ -28,7 +28,7 @@
     "colorable": "^1.0.5",
     "css-parse": "2.0.0",
     "css-stringify": "2.0.0",
-    "eslint": "^3.0.0",
+    "eslint": "^3.13.0",
     "eslint-plugin-github": "^0.7.0",
     "lodash": "^4.16.6",
     "mkdirp": "^0.5.1",
