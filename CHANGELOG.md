@@ -1,3 +1,7 @@
+# 0.4.1
+
+- Updating light theme to reflect color system changes.
+
 # 0.3.2
 
 - Updating the atom script to not rely on the atom package manager converting a textmate theme.
