@@ -1,5 +1,5 @@
 {
-  "version": "0.4.0",
+  "version": "0.4.1",
   "name": "github-syntax-theme-generator",
   "description": "The GitHub syntax theme generator will generate themes for multiple platforms based on the GitHub syntax theme.",
   "homepage": "https://github.com/primer/github-syntax-theme-generator",
