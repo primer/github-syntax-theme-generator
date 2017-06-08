@@ -34,7 +34,7 @@
     "mkdirp": "^0.5.1",
     "node-sass": "^4.4.0",
     "plist": "^2.0.1",
-    "primer-support": "^1.2.2"
+    "primer-support": "^2.0.0"
   },
   "keywords": [
     "syntax",
