@@ -52,6 +52,6 @@
     font-family: $mono-font;
     font-size: $h6-size;
     background: ${background};
-    line-height: 20px;
+    line-height: $lh-default;
   }
 }
