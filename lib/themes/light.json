@@ -52,7 +52,7 @@
       "settings": {}
     },
     {
-      "scope": "entity, entity.name",
+      "scope": "entity, entity.name, jsdoc",
       "settings": {
         "fontStyle": "",
         "foreground": "#6f42c1"
