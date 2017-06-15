@@ -130,7 +130,7 @@
       "name": "Variable"
     },
     {
-      "scope": "variable.other",
+      "scope": "variable.other, variable.php",
       "settings": {
         "foreground": "#24292e"
       }
